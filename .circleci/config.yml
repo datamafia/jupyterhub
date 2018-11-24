@@ -7,6 +7,9 @@ jobs:
   build:
     machine: true
     steps:
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
       - checkout
       - run:
           name: build images
