@@ -9,7 +9,7 @@ jobs:
     steps:
       - run:
           name: Install awscli
-          command: sudo pip install awscli --ignore-installed
+          command: sudo pip install awscli --force-reinstall
       - checkout
       - run:
           name: build images
