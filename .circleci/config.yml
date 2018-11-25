@@ -9,7 +9,7 @@ jobs:
     steps:
       - run:
           name: Install awscli
-          command: sudo pip install awscli
+          command: sudo pip install awscli --upgrade
       - checkout
       - run:
           name: build images
