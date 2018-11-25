@@ -1,0 +1,6 @@
+deployment:
+  staging:
+    branch: dev
+    codedeploy:
+      my-app:
+        deployment_group: staging-deployment-group
